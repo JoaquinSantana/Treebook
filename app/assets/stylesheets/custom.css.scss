@@ -1,0 +1,29 @@
+$btnPrimaryBackground: blue;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 40px;
+}
+
+.status {
+	padding: 5px 0px;
+	border-bottom: solid 1px #CCC;
+
+	p {
+		margin: 4px 0px;
+	}
+
+	.admin {
+		display: none;
+	}
+
+}
+
+.status.hover .admin {
+		display: inline;
+	}
+
+.status.hover {
+		background: #FAFAFA;
+	}
